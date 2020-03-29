@@ -47,14 +47,7 @@ class HomeTab extends StatelessWidget {
                     ),
                   );
                 else {
-                  return SliverToBoxAdapter(
-                    child: Container(
-                        height: 200.0,
-                        alignment: Alignment.center,
-                        child: Container()
-                    ),
-                  );
-                  /*return SliverStaggeredGrid.count(
+                  return SliverStaggeredGrid.count(
                     crossAxisCount: 2,
                     mainAxisSpacing: 1.0,
                     crossAxisSpacing: 1.0,
@@ -68,7 +61,7 @@ class HomeTab extends StatelessWidget {
                         fit: BoxFit.cover,
                       );
                     }).toList(),
-                  );*/
+                  );
 
                 }
               },
